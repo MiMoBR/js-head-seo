@@ -1,3 +1,5 @@
-			$(document).attr("title", "New Title");	
-			$("meta[name='description']").attr("content", "Text Description");	
-			$("meta[name='keywords']").attr("content", "Text Keywords");
+$(document).attr("title", "New Title");	
+$("meta[name='description']").attr("content", "Text Description");	
+$("meta[name='keywords']").attr("content", "Text Keywords");
+
+$("meta[property='og\\:title']").attr("content", result.title);
